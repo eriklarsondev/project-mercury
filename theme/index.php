@@ -2,17 +2,17 @@
 
 <div class="flex items-center mb-5">
     <div class="flex-1">
-        <span class="relative uppercase tracking-widest font-normal text-sm before:absolute before:content-[''] md:before:bottom-[calc(100%_+_5rem)] before:bottom-[calc(100%_+_30px)] before:right-[2px] before:w-[2px] before:h-screen before:bg-slate-700 before:rounded-full">
+        <span class="relative uppercase tracking-widest font-normal text-sm before:absolute before:content-[''] md:before:bottom-[calc(100%_+_5rem)] before:bottom-[calc(100%_+_30px)] before:right-[2px] before:w-[2px] before:h-screen before:bg-slate-800 before:rounded-full">
             Mercury Theme
         </span>
     </div>
 
     <div>
-        <span class="px-5 py-2 tracking-widest font-medium text-xs text-accent border-2 border-accent rounded-full">v0.1.0</span>
+        <span class="px-5 py-1 tracking-widest font-medium text-sm text-accent border-2 border-accent rounded-full">v0.1.0</span>
     </div>
 </div>
 
-<h1 class="relative mb-1 before:absolute before:content-[''] before:top-[calc(50%_-_1px)] md:before:right-[calc(100%_+_5rem)] before:right-[calc(100%_+_15px)] before:w-screen before:h-[2px] before:bg-slate-700 before:rounded-full">
+<h1 class="relative mb-1 before:absolute before:content-[''] before:top-[calc(50%_-_1px)] md:before:right-[calc(100%_+_5rem)] before:right-[calc(100%_+_15px)] before:w-screen before:h-[2px] before:bg-slate-800 before:rounded-full">
     <?php bloginfo('name'); ?>
 </h1>
 <?php if (get_bloginfo('description')): ?>
