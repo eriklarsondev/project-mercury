@@ -42,7 +42,7 @@ class CustomPostTypeConfig extends Base
                 : parent::formatLabel($post_type . 's', '-', false),
             'rest_namespace' => 'collections',
             'rewrite' => isset($config->collection)
-                ? ['slug' => '/collection/' . parent::formatLabel($collection, '-', false)]
+                ? ['slug' => '/collection/' . parent::formatLabel($config->collection, '-', false)]
                 : ['slug' => '/collection/' . parent::formatLabel($post_type . 's', '-', false)],
             'show_in_admin_bar' => true,
             'show_in_nav_menus' => true,
