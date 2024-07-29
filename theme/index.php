@@ -25,7 +25,7 @@
     <div class="flex-1">
         <a href="<?php echo '#'; ?>"
            target="_blank"
-           class="uppercase tracking-widest font-normal text-sm text-accent">View Website</a>
+           class="uppercase tracking-widest font-normal text-sm text-accent"><i class="fas fa-arrow-up-right-from-square"></i> View Website</a>
     </div>
 
     <div class="md:block hidden">
