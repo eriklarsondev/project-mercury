@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: ['./theme/**/*.php'],
@@ -6,12 +7,15 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        default: '30px'
+        DEFAULT: '30px'
       }
     },
     extend: {
+      colors: {
+        accent: colors.emerald[300]
+      },
       fontFamily: {
-        sans: [...defaultTheme.fontFamily.sans]
+        sans: ['Roboto Condensed', ...defaultTheme.fontFamily.sans]
       }
     }
   }

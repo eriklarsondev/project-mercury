@@ -5,14 +5,18 @@ include_once __DIR__ . '/util/class-base.php';
 
 include_once __DIR__ . '/theme/class-enqueue.php';
 include_once __DIR__ . '/theme/class-excerpt.php';
+include_once __DIR__ . '/theme/class-font.php';
 include_once __DIR__ . '/theme/class-menu.php';
 include_once __DIR__ . '/theme/class-post.php';
 include_once __DIR__ . '/theme/class-redirect.php';
 include_once __DIR__ . '/theme/class-sidebar.php';
 include_once __DIR__ . '/theme/class-support.php';
 
+include_once __DIR__ . '/admin/class-customizer.php';
 include_once __DIR__ . '/admin/class-editor.php';
 include_once __DIR__ . '/admin/class-plugin.php';
+include_once __DIR__ . '/admin/class-sidebar.php';
+include_once __DIR__ . '/admin/class-toolbar.php';
 
 class Mercury
 {
@@ -21,6 +25,21 @@ class Mercury
      */
     public function __construct()
     {
+    }
+
+    /**************************************************************************
+     *** methods for editor config
+     *************************************************************************/
+
+    /**
+     * disable WYSIWYG editor for custom post type
+     *
+     * @param string $post_type
+     * @return void
+     */
+    public function disableVisualEditor($post_type)
+    {
+        EditorConfig::disable_visual_editor($post_type);
     }
 
     /**************************************************************************
