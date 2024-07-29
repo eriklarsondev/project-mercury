@@ -24,6 +24,22 @@ class Mercury
     }
 
     /**************************************************************************
+     *** methods for required plugins config
+     *************************************************************************/
+
+    /**
+     * check to see if plugin is installed and/or active
+     *
+     * @param string $plugin_name
+     * @param string $class_name
+     * @return void
+     */
+    public function requirePlugin($plugin_name, $class_name = '')
+    {
+        RequiredPluginConfig::require_plugin($plugin_name, $class_name);
+    }
+
+    /**************************************************************************
      *** methods for menu location config
      *************************************************************************/
 
