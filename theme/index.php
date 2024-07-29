@@ -8,7 +8,7 @@
     </div>
 
     <div>
-        <span class="px-5 py-1 tracking-widest font-medium text-sm text-accent border-2 border-accent rounded-full">v0.1.0</span>
+        <span class="px-5 py-1 font-normal text-sm text-accent border-2 border-accent rounded-full">v0.1.0</span>
     </div>
 </div>
 
