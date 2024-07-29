@@ -31,7 +31,7 @@
     <div class="md:block hidden">
         <a href="https://github.com/eriklarsondev/project-mercury"
            target="_blank"
-           class="uppercase tracking-widest font-normal text-sm"><i class="fab fa-github"></i> Documentation</a>
+           class="uppercase tracking-widest font-normal text-sm text-slate-600"><i class="fab fa-github"></i> Documentation</a>
     </div>
 </div>
 
