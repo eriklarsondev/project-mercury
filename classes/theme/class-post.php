@@ -80,7 +80,7 @@ class CustomPostTypeConfig extends Base
         if ($features) {
             $supported = explode(',', $features);
             foreach ($supported as $feature) {
-                $feature = parent::formatLabel($feature, '-', false);
+                array_push($supported, parent::formatLabel($feature, '-', false));
             }
         } else {
             $supported = [
