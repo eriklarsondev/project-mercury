@@ -12,7 +12,7 @@
 
 <h1 class="mb-1"><?php bloginfo('name'); ?></h1>
 <?php if (get_bloginfo('description')): ?>
-    <span class="block"><?php bloginfo('description'); ?></span>
+    <span class="block leading-7"><?php bloginfo('description'); ?></span>
 <?php else: ?>
     <span class="block">&mdash;</span>
 <?php endif; ?>
@@ -21,13 +21,13 @@
     <div class="flex-1">
         <a href="<?php echo '#'; ?>"
            target="_blank"
-           class="uppercase tracking-widest font-normal text-sm text-accent">View Website</a>
+           class="tracking-widest font-normal text-accent">View Website</a>
     </div>
 
     <div>
         <a href="https://github.com/eriklarsondev/project-mercury"
            target="_blank"
-           class="uppercase tracking-widest font-normal text-sm"><i class="fab fa-github"></i> Documentation</a>
+           class="tracking-widest font-normal"><i class="fab fa-github"></i> Documentation</a>
     </div>
 </div>
 
