@@ -18,4 +18,9 @@ class Base
         }
         return $formatted;
     }
+
+    protected function getRootPath()
+    {
+        return 'mercury';
+    }
 }
