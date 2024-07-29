@@ -83,19 +83,7 @@ class CustomPostTypeConfig extends Base
                 array_push($supported, parent::formatLabel($feature, '-', false));
             }
         } else {
-            $supported = [
-                'title',
-                'editor',
-                'comments',
-                'revisions',
-                'trackbacks',
-                'author',
-                'excerpt',
-                'page-attributes',
-                'thumbnail',
-                'custom-fields',
-                'post-formats',
-            ];
+            $supported = ['title', 'editor'];
         }
         return $supported;
     }
