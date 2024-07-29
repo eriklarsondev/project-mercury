@@ -2,7 +2,7 @@
 
 <div class="flex items-center mb-5">
     <div class="flex-1">
-        <span class="relative uppercase tracking-widest font-normal text-sm before:absolute before:content-[''] md:before:bottom-[calc(100%_+_5rem)] before:bottom-[calc(100%_+_30px)] before:right-[2px] before:w-[2px] before:h-screen before:bg-slate-700 before:rounded-full">
+        <span class="relative uppercase tracking-widest font-normal text-sm before:absolute before:content-[''] lg:before:bottom-[calc(100%_+_5rem)] before:bottom-[calc(100%_+_30px)] before:right-[2px] before:w-[2px] before:h-screen before:bg-slate-700 before:rounded-full">
             Mercury Theme
         </span>
     </div>
@@ -21,7 +21,7 @@
     <span class="block">&mdash;</span>
 <?php endif; ?>
 
-<div class="flex items-center relative mt-8 before:absolute before:content-[''] before:top-[calc(50%_-_1px)] md:before:right-[calc(100%_+_5rem)] before:right-[calc(100%_+_15px)] before:w-screen before:h-[2px] before:bg-slate-700 before:rounded-full">
+<div class="flex items-center relative mt-8 before:absolute before:content-[''] before:top-[calc(50%_-_1px)] lg:before:right-[calc(100%_+_5rem)] before:right-[calc(100%_+_15px)] before:w-screen before:h-[2px] before:bg-slate-700 before:rounded-full">
     <div class="flex-1">
         <a href="<?php echo '#'; ?>"
            target="_blank"

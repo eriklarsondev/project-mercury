@@ -17,6 +17,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div class="container max-w-xl">
+    <div class="container max-w-2xl">
         <div class="flex justify-center items-center h-screen py-10">
             <div class="flex-1">
