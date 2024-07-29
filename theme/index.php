@@ -19,7 +19,7 @@
 
 <div class="flex items-center mt-8">
     <div class="flex-1">
-        <a href=""
+        <a href="<?php echo '#'; ?>"
            target="_blank"
            class="uppercase tracking-widest font-normal text-sm text-accent">View Website</a>
     </div>

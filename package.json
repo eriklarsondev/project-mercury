@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "author": "Erik Larson",
-  "description": "",
+  "description": "A scalable headless WordPress theme optimized for configuring custom post types, menu locations, etc.",
   "keywords": [],
   "license": "UNLICENSED",
   "scripts": {
